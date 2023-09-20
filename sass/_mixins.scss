@@ -1,0 +1,19 @@
+
+@mixin large-tablet{
+    @media (max-width:922px) {
+        @content;
+        
+    }
+}
+@mixin medium-tablet {
+    @media(max-width:768px) {
+        @content;
+        
+    }
+}
+@mixin mobile{
+    @media(max-width:576px) {
+        @content;
+        
+    }
+}

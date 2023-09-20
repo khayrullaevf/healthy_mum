@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Lato-7";
+  src: url("../fonts/Lato/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: "Lato-5";
+  src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+@media (max-width: 922px) {
+  body {
+    background-color: red;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    background-color: gray;
+  }
+}/*# sourceMappingURL=main.css.map */
